@@ -4,5 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# I am Jorge Levy
+Microsoft MVP in Developer Technologies category. Programmer by conviction and passion. More than 20 years programming in Microsoft web technologies
+
+Community leader for "Latino Net Online" a community of .NET developers from all over Latin America; and "Asp.Net (Spanish)" on Facebook
