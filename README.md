@@ -41,6 +41,8 @@ This repository is automatically updated with new releases from the theme reposi
 
 All contributions must be submitted via pull requests. Direct pushes to the main branch are not allowed.
 
+For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 This work is published under [MIT][mit] License.
