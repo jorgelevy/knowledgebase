@@ -15,12 +15,22 @@ bundle exec jekyll s
 ## Build
 ```
 jekyll build
+JEKYLL_ENV=production jekyll build
 ```
 
-## Configure
+## Configure (Windows)
 ```
 $ENV:JEKYLL_ENV = "production"
 $ENV:JEKYLL_ENV = $null
+[Environment]:SetEnvironmentVariable("JEKYLL_ENV", "production", "User")
+echo $Env:JEKYLL_ENV
+```
+
+## Configure (Debian)
+```
+export JEKYLL_ENV=production
+unset JEKYLL_ENV
+echo $JEKYLL_ENV
 ```
 
 ## Bundle clean

@@ -16,7 +16,7 @@ npm install -g @angular/cli
 ## Azure Function Core Tools
 <https://github.com/Azure/azure-functions-core-tools>
 ```
-npm i -g azure-functions-core-tools@4 --unsafe-perm true
+npm i -g azure-functions-core-tools@4
 ```
 
 ## Static Web Apps CLI

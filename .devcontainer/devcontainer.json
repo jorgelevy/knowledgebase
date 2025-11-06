@@ -1,20 +1,20 @@
 {
   "name": "Jekyll",
-  "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2-bookworm",
   "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
+  },
   "customizations": {
     "vscode": {
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh"
-      },
       "extensions": [
         // Liquid tags auto-complete
         "killalau.vscode-liquid-snippets",
         // Liquid syntax highlighting and formatting
         "Shopify.theme-check-vscode",
         // Shell
-        "timonwong.shellcheck",
+        // "timonwong.shellcheck",
         "mkhl.shfmt",
         // Common formatter
         "EditorConfig.EditorConfig",

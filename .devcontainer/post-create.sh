@@ -16,3 +16,6 @@ sed -i -E "s/^(plugins=\()(git)(\))/\1\2 zsh-syntax-highlighting zsh-autosuggest
 
 # Avoid git log use less
 echo -e "\nunset LESS" >>~/.zshrc
+
+bash -i -c "nvm install --lts && nvm install-latest-npm"
+bash -i -c "npm install -g @azure/static-web-apps-cli"
