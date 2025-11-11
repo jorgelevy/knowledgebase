@@ -24,8 +24,8 @@ tags: [azure, azure cli]     # TAG names should always be lowercase
 
 ### App Service Plan
 ```
-$resourceName="cloudbootcampcolombia"
-$resourceGroupName="CloudBootcampColombia"
+$resourceName="resourcename"
+$resourceGroupName="ResourceGroupName"
 $location="westus"
 
 az group create --name $resourceGroupName --location $location
@@ -42,15 +42,9 @@ az storage account blob-service-properties update --account-name $resourceName -
 
 az functionapp plan create --name $resourceName --resource-group $resourceGroupName --location $location --sku P0v3 --is-linux true
 
-az functionapp create --name $resourceName-gamessync --resource-group $resourceGroupName --plan $resourceName --storage-account $resourceName --os-type Linux --functions-version 4 --runtime dotnet-isolated --runtime-version 9 --app-insights $resourceName
+az functionapp create --name $resourceName --resource-group $resourceGroupName --plan $resourceName --storage-account $resourceName --os-type Linux --functions-version 4 --runtime dotnet-isolated --runtime-version 9 --app-insights $resourceName
 
-az functionapp create --name $resourceName-messaging --resource-group $resourceGroupName --plan $resourceName --storage-account $resourceName --os-type Linux --functions-version 4 --runtime dotnet-isolated --runtime-version 9 --app-insights $resourceName
-
-az functionapp create --name $resourceName-messagingsender --resource-group $resourceGroupName --plan $resourceName --storage-account $resourceName --os-type Linux --functions-version 4 --runtime dotnet-isolated --runtime-version 9 --app-insights $resourceName
-
-az webapp create --name $resourceName-api --resource-group $resourceGroupName --plan $resourceName --runtime DOTNETCORE:9.0
-
-az webapp create --name $resourceName-web --resource-group $resourceGroupName --plan $resourceName --runtime DOTNETCORE:9.0
+az webapp create --name $resourceName --resource-group $resourceGroupName --plan $resourceName --runtime DOTNETCORE:9.0
 
 az servicebus namespace create --name $resourceName --resource-group $resourceGroupName --location $location --sku Basic
 
@@ -58,5 +52,5 @@ az servicebus queue create --name notifications --resource-group $resourceGroupN
 
 az storage container create --name avatars --account-name $resourceName
 
-az storage container create --name predefined-avatars --account-name $resourceName```
+az storage container create --name predefined-avatars --account-name $resourceName
 ```
