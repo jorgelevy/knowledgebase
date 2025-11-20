@@ -29,9 +29,19 @@ latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so tha
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
+## Branch Protection
+
+This repository uses branch protection rules to ensure code quality and maintain stability. The main branch only accepts changes through pull requests.
+
+For instructions on setting up or modifying branch protection rules, see [BRANCH_PROTECTION.md](BRANCH_PROTECTION.md).
+
 ## Contributing
 
 This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+
+All contributions must be submitted via pull requests. Direct pushes to the main branch are not allowed.
+
+For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
