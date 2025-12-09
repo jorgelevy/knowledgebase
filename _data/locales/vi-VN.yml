@@ -73,5 +73,9 @@ post:
 
 # categories page
 categories:
-  category_measure: danh mục
-  post_measure: bài viết
+  category_measure:
+    singular: danh mục
+    plural: danh mục
+  post_measure:
+    singular: bài viết
+    plural: bài viết
