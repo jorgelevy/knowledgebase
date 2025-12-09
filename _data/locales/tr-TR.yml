@@ -75,8 +75,12 @@ post:
 
 # categories page
 categories:
-  category_measure: kategori
-  post_measure: gönderi
+  category_measure:
+    singular: kategori
+    plural: kategori
+  post_measure:
+    singular: gönderi
+    plural: gönderi
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
