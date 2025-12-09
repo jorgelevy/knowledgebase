@@ -75,5 +75,9 @@ post:
 
 # categories page
 categories:
-  category_measure: ကဏ္ဍများ
-  post_measure: ပို့စ်များ
+  category_measure:
+    singular: ကဏ္ဍ
+    plural: ကဏ္ဍများ
+  post_measure:
+    singular: ပို့စ်
+    plural: ပို့စ်များ
