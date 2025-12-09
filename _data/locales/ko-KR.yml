@@ -82,5 +82,9 @@ df:
 
 # categories page
 categories:
-  category_measure: 카테고리
-  post_measure: 포스트
+  category_measure:
+    singular: 카테고리
+    plural: 카테고리
+  post_measure:
+    singular: 포스트
+    plural: 포스트
