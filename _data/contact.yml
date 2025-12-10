@@ -7,9 +7,9 @@
 
 - type: youtube
   icon: 'fab fa-youtube'
-  url: https://www.youtube.com/@JorgeLevyDotNet
+  url:  'https://www.youtube.com/@JorgeLevyDotNet'
 
-- type: tikTok
+- type: tiktok
   icon: 'fab fa-tiktok'
   url:  'https://www.tiktok.com/@jorgelevydotnet'
 
@@ -27,13 +27,13 @@
 
 - type: bluesky
   icon: 'fa-brands fa-bluesky'
-  url: 'https://bsky.app/profile/jorgelevy.net'
+  url:  'https://bsky.app/profile/jorgelevy.net'
 
 - type: threads
   icon: 'fa-brands fa-threads'
-  url: 'https://www.threads.net/@jorgelevydotnet'
+  url:  'https://www.threads.net/@jorgelevydotnet'
 
-- type:  instagram
+- type: instagram
   icon: 'fab fa-instagram'
   url:  'https://www.instagram.com/jorgelevydotnet/'
 
