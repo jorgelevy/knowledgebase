@@ -12,6 +12,11 @@ Jekyll helper
 bundle exec jekyll s
 ```
 
+### Execute with reload in a container
+```
+bundle exec jekyll serve --livereload --force_polling
+```
+
 ## Build
 ```
 jekyll build
